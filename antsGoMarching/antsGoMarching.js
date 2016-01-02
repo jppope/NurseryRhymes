@@ -1,7 +1,9 @@
 /*
 	much thanks to //etc.usf.edu/lit2go/66/counting-and-math-rhymes/3194/the-ants-go-marching/	
 */
-
+var littleOne = [];
+var howTheyMarch = ["one by one", "two by two", "three by three", "four by four", "five by five", "six by six", "seven by seven", "eight by eight", "nine by nine", "ten by ten"];
+ 
 function theAntsGoMarching(){
 	for (var i = 0; i < howTheyMarch.length; i++){
 		howManyByHowMany(i);
@@ -10,10 +12,6 @@ function theAntsGoMarching(){
 	}	
 }
 theAntsGoMarching();
-
-var howTheyMarch = ["one by one", "two by two", "three by three", "four by four", "five by five", "six by six", "seven by seven", "eight by eight", "nine by nine", "ten by ten"];
- 
-var littleOne = [];
 
 littleOne[0] = "The little one stops to suck her thumb";
 littleOne[1] = "The little one stops to tie his shoe";
